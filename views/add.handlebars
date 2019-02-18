@@ -1,0 +1,30 @@
+<div class="row">
+
+    <form enctype="multipart/form-data" action="/users" method="post">
+
+        <div class="input-field col s12">
+            <input type="text" name="title" id="title" class="validate">
+            <label for="title">Document Name</label>
+        </div>
+
+        <div class="input-field col s12">
+            <input type="text" name="docdate" id="date" class="datepicker">
+            <label for="date">Date file was created</label>
+        </div>
+
+        <div class="input-field col s12">
+            <input type="text" name="description" id="description" class="validate">
+            <label for="description">Description</label>
+        </div>
+
+        <div class="input-field col s12">
+            <input type="file" name="upload" class="validate">
+        </div>
+
+        <div class="input-field col s12">
+            <input type="submit" value="Submit" class="btn green">
+        </div>
+
+    </form>
+
+</div>
