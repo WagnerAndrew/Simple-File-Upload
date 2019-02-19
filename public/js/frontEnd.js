@@ -15,6 +15,7 @@ $(".createForm").on("click", function (event) {
 
 });
 
+// DATE PICKER FUNCTION ////////////////////////////////////////
 
 $(document).ready(function(){
   $('.datepicker').datepicker({
