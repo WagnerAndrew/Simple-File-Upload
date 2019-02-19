@@ -11,14 +11,6 @@ module.exports = function(app) {
     });
   });
 
-  app.get("/search", function(req, res) {
-    db.Document.findOne({ where: { id: req.params.id } }).then(function(dbDocument) {
-      res.render("search", {
-        documents: dbDocument
-      });
-    });
-  });
-
   app.get("/add", function(req, res) {
     res.render("add");
   });
