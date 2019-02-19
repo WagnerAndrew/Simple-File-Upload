@@ -1,4 +1,3 @@
-
 // ADD DOCUMENT CLICK FUNCTION ////////////////////////////////////////
 
 $(".createForm").on("click", function (event) {
