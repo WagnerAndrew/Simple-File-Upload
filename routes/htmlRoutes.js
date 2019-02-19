@@ -4,7 +4,7 @@ module.exports = function(app) {
 
   app.get("/", function(req, res) {
     db.Document.findAll({}).then(function(dbDocument) {
-      console.log("Doc",dbDocument);
+
       res.render("index", {
         documents: dbDocument
       });
