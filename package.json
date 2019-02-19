@@ -1,21 +1,21 @@
 {
-  "name": "records-db",
+  "name": "simple_file_upload",
   "version": "1.0.0",
-  "description": "An app that allows users to upload documents and search a database of uploaded documents.",
+  "description": "An app that allows users to upload files and store them in a database.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/llcook/records-db.git"
+    "url": "git+https://github.com/WagnerAndrew/Simple-File-Upload"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/llcook/records-db/issues"
+    "url": "https://github.com/WagnerAndrew/Simple-File-Upload/issues"
   },
-  "homepage": "https://github.com/llcook/records-db#readme",
+  "homepage": "https://github.com/WagnerAndrew/Simple-File-Upload#readme",
   "dependencies": {
     "aws-sdk": "^2.387.0",
     "dotenv": "^6.2.0",
